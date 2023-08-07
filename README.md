@@ -37,13 +37,18 @@ Loading the json file and parsing it to csv in order for tableau can load as a d
     - No. The absolute value is higher but the percentage to their earning is the same. Considering the inflation, people actually do not spend more than they did in 2001
 - There were several economic crises in the world in the last 40 years, including these four: Black Monday (1987), Recession (early 1990s), dot com bubble (2000 - 2002), Financial crisis (2007 - 2009). Show the effect of these crises on:
   - Earnings
+    - It actually had very slight impact to the earnings
   - House prices
+    - The house prices drop in the recession and financial crisis but quickly recovered
   - Office prices
+    - The office price drops in the recession and financial crisis but quickly recovered
   - House constructions
+    - The House construcions drop very low during the recessions
   - Consumer index
     - The Black Monday doesn't show the impact. The Recession (early 1990s) impacted to the house price.
     - The dot com bubble (2000-2002) impacted to the consumer index and had a slightly impact to the house price index
 - Plot consumer_index together with housing_price_index and fit the regression line between them. Can we predict consumer_index from the housing_price_index?
+  - Because the R-squared is really high and the p-value is less than 0.05. We can say that we can predict the consumer index based on the housing price index
 - Try to find an interesting pattern, trend, outlier, etc. from the data used in the above questions.
   - HINT : Double check all units in the table before any comparison.
 ## Results
