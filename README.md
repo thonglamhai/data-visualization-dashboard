@@ -19,6 +19,7 @@ By analyzing the data to find the relationship between the consumer index and ho
 - README.md: overview about the project and tasks has been done as well as the outcome.
 - data_visualisation.ipynb: to convert weekly earning from JSON to CSV
 ## Process
+### Loading data
 ### Parsing the json to csv
 Loading the json file and parsing it to csv in order for tableau can load as a data source.
 ### Answer the question
