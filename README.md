@@ -17,6 +17,7 @@ By analyzing the data to find the relationship between the consumer index and ho
 - workbook: tableau workbook
 - assignment.md: description about the tasks of the assignment
 - README.md: overview about the project and tasks has been done as well as the outcome.
+- data_visualisation.ipynb: to convert weekly earning from JSON to CSV
 ## Process
 ### Parsing the json to csv
 Loading the json file and parsing it to csv in order for tableau can load as a data source.
@@ -24,17 +25,17 @@ Loading the json file and parsing it to csv in order for tableau can load as a d
 - Show the trend of house prices across Canada in the last 40 years (table housing_price_index).
   - According to the sheet `House Price Index`, the chart shows that the House Price index keeps going up over the last 40 years. It has some decrease at some years but overall is increasing.
 - Compare the trend after 2005 with actual benchmark prices in table real_estate_prices to see if there are any differences.
-  - According to the result in sheet `Housing Price Trend by Year - Actual`, it shows that the actual benchmark and the index are on the same trend. Which is the actual price is keep going up over the years.
+  - According to the result in sheet `Housing Price Index vs Actual Benchmark`, it shows that the actual benchmark and the index are on the same trend. 
 - Compare this trend with the trend of office prices. Which one is getting more expensive, faster?
-  - The office price is going up too, even at higher percentage (46% compare to 42% of housing) as shown in the sheet `HPI vs Office Index`
+  - The office price is going up too, even at higher percentage (182.8% compare to 155.4% of housing) as shown in the sheet `House Price vs Office`
 - Create a heatmap of Canada with current house prices for each available district.
-  - The heatmap of Canada with current house prices (the latest date is Sep, 2020) shows in the sheet `House price by District Heatmap`
+  - The heatmap of Canada with current house prices (the latest date is Sep, 2020) shows in the sheet `House Price Heat Map`
 - Are the price differences between different districts increasing?
-  - The price from difference district are increasing. As show in the sheet `Price from difference`, the increasing in Edmonton is lower than Calgary, for example.
+  - The price from difference district are increasing. As show in the sheet `House Price District`, the increasing in Edmonton is lower than Calgary, for example.
 - Compare the trend of house prices with earnings. *In case you want to plot monthly salary, be aware that the earnings value is per week.
-    - Even though the weekly salary earning keep increasing, the percentage of increase is still lower than the house price increase (45% compare to 63%) in the sheet `Earning vs House Price`
+    - Even though the weekly salary earning keep increasing, the percentage of increase is still lower than the house price increase (45% compare to 63%) in the sheet `House Price vs Earnings`
 - Did people spend more of their earnings in 2014 than they did in 2001?
-    - No. The absolute value is higher but the percentage to their earning is the same. Considering the inflation, people actually do not spend more than they did in 2001
+    - No. The absolute value is higher but the percentage to their earning is the same. Considering the inflation, people actually do not spend more than they did in 2001 as shown in `Earnings vs Spendings`
 - There were several economic crises in the world in the last 40 years, including these four: Black Monday (1987), Recession (early 1990s), dot com bubble (2000 - 2002), Financial crisis (2007 - 2009). Show the effect of these crises on:
   - Earnings
     - It actually had very slight impact to the earnings
