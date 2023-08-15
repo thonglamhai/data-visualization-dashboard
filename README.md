@@ -53,6 +53,10 @@ Loading the json file and parsing it to csv in order for tableau can load as a d
   - Because the R-squared is really high and the p-value is less than 0.05. We can say that we can predict the consumer index based on the housing price index
 - Try to find an interesting pattern, trend, outlier, etc. from the data used in the above questions.
   - HINT : Double check all units in the table before any comparison.
+### Dashboard
+- Create 2 dashboards
+  - `House Price History Dashboard`: to show the prices changes through the history (last 40 years)
+  - `House Price, Office, Earnings and District Dashboard`: to show the house price compare to office price, earnings and the difference in House Price between Districts
 ## Results
 An overview about the housing price and the earnings in Canada for over 40 years.
 Even though that the earning is keep increasing, the house price has a bigger percentage of increase.
